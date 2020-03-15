@@ -1,0 +1,17 @@
+.team-heading {
+    background-color: navy;
+    color: white
+}
+.card-header {
+    background-color: skyblue;
+    
+}
+.employee-card {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+body {
+    background-color: silver;
+}
