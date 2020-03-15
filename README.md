@@ -20,9 +20,9 @@ X. Questions
 The user will need to install inquirer and jest to run and test the application.
 
 ## Visuals
-<img src='./assets/images/ss1.png' alt='screenshot1' height='200px'>
-<img src='./assets/images/ss2.png' alt='screenshot2' height='200px'>
-<img src='./assets/images/ss3.png' alt='screenshot3' height='200px'>
+<img src='https://github.com/alexjoeldelgado/TeamProfileGenerator/blob/master/assets/images/ss1.PNG' alt='screenshot1' height='200px'>
+<img src='https://github.com/alexjoeldelgado/TeamProfileGenerator/blob/master/assets/images/ss2.PNG' alt='screenshot2' height='200px'>
+<img src='https://github.com/alexjoeldelgado/TeamProfileGenerator/blob/master/assets/images/ss3.PNG' alt='screenshot3' height='200px'>
     
 ## Usage
 The application will check to see if the output directory exists, and if it doesn't, it will be created. The user is then asked if they would like to add an employee. The user is asked for the name, id, email, and role of the employee. Depending on which role the user selects, a role-specific question will be asked. From the gathered data, the application will create an array of either Manager, Engineer, or Intern objects. Each object will have the appropriate properties that match the previous data. Once all employees have been inputted, the application will create an HTML file, using templates for each employee, and save that file in the output directory.
